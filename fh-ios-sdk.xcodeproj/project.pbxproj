@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14F26AF58C2DCB0750D3F15E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC8A0A7417DA495FFDD185F /* libPods.a */; };
 		2BF2D8F41B7DFE1A006817BF /* FHFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF2D8F31B7DFE1A006817BF /* FHFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BF2D9081B7DFEE0006817BF /* FHJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F84682D1AB03C0100EC7593 /* FHJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BF2D9091B7DFEE0006817BF /* FHSyncClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FFA1A9B366200C22C92 /* FHSyncClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -263,6 +264,7 @@
 				2BF2D93C1B7DFF6F006817BF /* CoreGraphics.framework in Frameworks */,
 				2BF2D93B1B7DFF6A006817BF /* SystemConfiguration.framework in Frameworks */,
 				2BF2D93A1B7DFF62006817BF /* Foundation.framework in Frameworks */,
+				14F26AF58C2DCB0750D3F15E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,10 +599,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BF2D9061B7DFE1A006817BF /* Build configuration list for PBXNativeTarget "FHFramework" */;
 			buildPhases = (
+				30BE927A2E44DFE32EEC383C /* Check Pods Manifest.lock */,
 				2BF2D8EA1B7DFE1A006817BF /* Sources */,
 				2BF2D8EB1B7DFE1A006817BF /* Frameworks */,
 				2BF2D8EC1B7DFE1A006817BF /* Headers */,
 				2BF2D8ED1B7DFE1A006817BF /* Resources */,
+				57BB3E4A6D1F874334B33CA6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -719,6 +723,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FHTests/Pods-FHTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30BE927A2E44DFE32EEC383C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57BB3E4A6D1F874334B33CA6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B3D7C49115D28BE30019262E /* ShellScript */ = {
@@ -896,6 +930,7 @@
 /* Begin XCBuildConfiguration section */
 		2BF2D9021B7DFE1A006817BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6E7A1924B17EF8B3DD8023 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
