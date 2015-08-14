@@ -128,4 +128,10 @@
     XCTAssertTrue(cuiidMap.count == 2, @"X-FH-cuidMap should contain 2 values");
 }
 
+-(void)testVersionExists
+{
+    XCTAssertNotNil(FH_SDK_VERSION, @"This should exist")
+    XCTAssertTrue([FH_SDK_VERSION length] > 0, @"This should have a length")
+}
+
 @end
