@@ -11,7 +11,7 @@ The project relies on [Cocoapods](http://cocoapods.org) and it's respective plug
 
 ### Common Actions
 
-* Update the ```VERSION.txt``` and ```fh-ios-sdk/FHDefines.h ``` with the new version number.
+* Update the ```VERSION.txt``` and the ```FH_SDK_VERSION``` project build setting with the new version number.
 * Update ```CHANGELOG.md`` with the new release and content.
 
 ### a) Release on Cocoapods  [Required Step]
