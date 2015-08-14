@@ -7,6 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BF2D8F41B7DFE1A006817BF /* FHFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF2D8F31B7DFE1A006817BF /* FHFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D9081B7DFEE0006817BF /* FHJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F84682D1AB03C0100EC7593 /* FHJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D9091B7DFEE0006817BF /* FHSyncClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FFA1A9B366200C22C92 /* FHSyncClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D90A1B7DFEE0006817BF /* FHSyncConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FFC1A9B366200C22C92 /* FHSyncConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D90B1B7DFEE0006817BF /* FHSyncNotificationMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C60031A9B366200C22C92 /* FHSyncNotificationMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D90C1B7DFEE0006817BF /* FHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FEA1A9B366200C22C92 /* FHConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D90D1B7DFEE0006817BF /* FHDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FEB1A9B366200C22C92 /* FHDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D90E1B7DFEE0006817BF /* FH.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FE41A9B366200C22C92 /* FH.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D90F1B7DFEE0006817BF /* FHAct.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FE51A9B366200C22C92 /* FHAct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D9101B7DFEE0006817BF /* FHActRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FE61A9B366200C22C92 /* FHActRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D9111B7DFEE0006817BF /* FHAuthRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FE71A9B366200C22C92 /* FHAuthRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D9121B7DFEE0006817BF /* FHCloudProps.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FE81A9B366200C22C92 /* FHCloudProps.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D9131B7DFEE0006817BF /* FHCloudRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FE91A9B366200C22C92 /* FHCloudRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D9141B7DFEE0006817BF /* FHResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FEF1A9B366200C22C92 /* FHResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D9151B7DFEE0006817BF /* FHResponseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FF01A9B366200C22C92 /* FHResponseDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D9161B7DFEE0006817BF /* FHDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F685D61AD8352A002240DA /* FHDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF2D9171B7DFF10006817BF /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FF21A9B366200C22C92 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2BF2D9181B7DFF10006817BF /* NSString+Validation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FF41A9B366200C22C92 /* NSString+Validation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2BF2D9191B7DFF10006817BF /* FHOAuthViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FF71A9B366200C22C92 /* FHOAuthViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2BF2D91A1B7DFF10006817BF /* FHSyncDataRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FFE1A9B366200C22C92 /* FHSyncDataRecord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2BF2D91B1B7DFF10006817BF /* FHSyncDataset.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C60001A9B366200C22C92 /* FHSyncDataset.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2BF2D91C1B7DFF10006817BF /* FHSyncPendingDataRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C60051A9B366200C22C92 /* FHSyncPendingDataRecord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2BF2D91D1B7DFF10006817BF /* FHSyncUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C60071A9B366200C22C92 /* FHSyncUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2BF2D91E1B7DFF10006817BF /* FHHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FEC1A9B366200C22C92 /* FHHttpClient.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2BF2D91F1B7DFF10006817BF /* FHInitRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C5FED1A9B366200C22C92 /* FHInitRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2BF2D9201B7DFF1A006817BF /* FHPushConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B4D0521B316F2500385BAC /* FHPushConfig.h */; };
+		2BF2D9211B7DFF36006817BF /* FHJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F84682E1AB03C0100EC7593 /* FHJSON.m */; };
+		2BF2D9221B7DFF36006817BF /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C5FF31A9B366200C22C92 /* NSString+MD5.m */; };
+		2BF2D9231B7DFF36006817BF /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C5FF51A9B366200C22C92 /* NSString+Validation.m */; };
+		2BF2D9241B7DFF36006817BF /* FHOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C5FF81A9B366200C22C92 /* FHOAuthViewController.m */; };
+		2BF2D9251B7DFF36006817BF /* FHSyncClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C5FFB1A9B366200C22C92 /* FHSyncClient.m */; };
+		2BF2D9261B7DFF36006817BF /* FHSyncConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C5FFD1A9B366200C22C92 /* FHSyncConfig.m */; };
+		2BF2D9271B7DFF36006817BF /* FHSyncDataRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C5FFF1A9B366200C22C92 /* FHSyncDataRecord.m */; };
+		2BF2D9281B7DFF36006817BF /* FHSyncDataset.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C60011A9B366200C22C92 /* FHSyncDataset.m */; };
+		2BF2D9291B7DFF36006817BF /* FHSyncNotificationMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C60041A9B366200C22C92 /* FHSyncNotificationMessage.m */; };
+		2BF2D92A1B7DFF36006817BF /* FHSyncPendingDataRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C60061A9B366200C22C92 /* FHSyncPendingDataRecord.m */; };
+		2BF2D92B1B7DFF36006817BF /* FHSyncUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C60081A9B366200C22C92 /* FHSyncUtils.m */; };
+		2BF2D92C1B7DFF36006817BF /* FHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C604B1A9B366200C22C92 /* FHConfig.m */; };
+		2BF2D92D1B7DFF36006817BF /* FHPushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B4D0531B316F2500385BAC /* FHPushConfig.m */; };
+		2BF2D92E1B7DFF36006817BF /* FH.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C60451A9B366200C22C92 /* FH.m */; };
+		2BF2D92F1B7DFF36006817BF /* FHAct.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C60461A9B366200C22C92 /* FHAct.m */; };
+		2BF2D9301B7DFF36006817BF /* FHActRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C60471A9B366200C22C92 /* FHActRequest.m */; };
+		2BF2D9311B7DFF36006817BF /* FHAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C60481A9B366200C22C92 /* FHAuthRequest.m */; };
+		2BF2D9321B7DFF36006817BF /* FHCloudProps.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C60491A9B366200C22C92 /* FHCloudProps.m */; };
+		2BF2D9331B7DFF36006817BF /* FHCloudRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C604A1A9B366200C22C92 /* FHCloudRequest.m */; };
+		2BF2D9341B7DFF36006817BF /* FHHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C604C1A9B366200C22C92 /* FHHttpClient.m */; };
+		2BF2D9351B7DFF36006817BF /* FHInitRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C604D1A9B366200C22C92 /* FHInitRequest.m */; };
+		2BF2D9361B7DFF36006817BF /* FHResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C604F1A9B366200C22C92 /* FHResponse.m */; };
+		2BF2D9371B7DFF36006817BF /* FHDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F685D71AD8352A002240DA /* FHDataManager.m */; };
+		2BF2D93A1B7DFF62006817BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D7C48615D28BE30019262E /* Foundation.framework */; };
+		2BF2D93B1B7DFF6A006817BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE9D9115D52F19004EF454 /* SystemConfiguration.framework */; };
+		2BF2D93C1B7DFF6F006817BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE9D8C15D52E5B004EF454 /* CoreGraphics.framework */; };
+		2BF2D93D1B7DFF75006817BF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE9D8E15D52E87004EF454 /* MobileCoreServices.framework */; };
+		2BF2D93E1B7DFF7B006817BF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3951AC315D2BA020091054A /* CoreFoundation.framework */; };
+		2BF2D93F1B7DFF80006817BF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D7C55015D2923C0019262E /* CFNetwork.framework */; };
 		48B4D0511B316CCC00385BAC /* libFeedHenry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D7C48315D28BE30019262E /* libFeedHenry.a */; };
 		48B4D0541B316F2500385BAC /* FHPushConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B4D0521B316F2500385BAC /* FHPushConfig.h */; };
 		48B4D0551B316F2500385BAC /* FHPushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B4D0531B316F2500385BAC /* FHPushConfig.m */; };
@@ -100,6 +155,10 @@
 		0DDDA6554CB424F893F45FB6 /* Pods-FHTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FHTests/Pods-FHTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E6E7A1924B17EF8B3DD8023 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		2BC8A0A7417DA495FFDD185F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF2D8EF1B7DFE1A006817BF /* FeedHenry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeedHenry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF2D8F21B7DFE1A006817BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF2D8F31B7DFE1A006817BF /* FHFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHFramework.h; sourceTree = "<group>"; };
+		2BF2D9381B7DFF5A006817BF /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		3DECFFD167AF12D1C659AD99 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		48B4D0521B316F2500385BAC /* FHPushConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHPushConfig.h; path = "fh-ios-sdk/FHPushConfig.h"; sourceTree = SOURCE_ROOT; };
 		48B4D0531B316F2500385BAC /* FHPushConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FHPushConfig.m; path = "fh-ios-sdk/FHPushConfig.m"; sourceTree = SOURCE_ROOT; };
@@ -194,6 +253,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2BF2D8EB1B7DFE1A006817BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF2D93F1B7DFF80006817BF /* CFNetwork.framework in Frameworks */,
+				2BF2D93E1B7DFF7B006817BF /* CoreFoundation.framework in Frameworks */,
+				2BF2D93D1B7DFF75006817BF /* MobileCoreServices.framework in Frameworks */,
+				2BF2D93C1B7DFF6F006817BF /* CoreGraphics.framework in Frameworks */,
+				2BF2D93B1B7DFF6A006817BF /* SystemConfiguration.framework in Frameworks */,
+				2BF2D93A1B7DFF62006817BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3D7C48015D28BE30019262E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +301,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BF2D8F01B7DFE1A006817BF /* FHFramework */ = {
+			isa = PBXGroup;
+			children = (
+				2BF2D8F31B7DFE1A006817BF /* FHFramework.h */,
+				2BF2D8F11B7DFE1A006817BF /* Supporting Files */,
+			);
+			path = FHFramework;
+			sourceTree = "<group>";
+		};
+		2BF2D8F11B7DFE1A006817BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BF2D8F21B7DFE1A006817BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6F84682C1AB03C0100EC7593 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +399,7 @@
 			children = (
 				B3D7C48815D28BE30019262E /* fh-ios-sdk */,
 				B3D7C49C15D28BE30019262E /* fh-ios-sdkTests */,
+				2BF2D8F01B7DFE1A006817BF /* FHFramework */,
 				B3D7C48515D28BE30019262E /* Frameworks */,
 				B3D7C48415D28BE30019262E /* Products */,
 				759B95AD19FCF027F55925D6 /* Pods */,
@@ -321,6 +411,7 @@
 			children = (
 				B3D7C48315D28BE30019262E /* libFeedHenry.a */,
 				B3D7C49315D28BE30019262E /* FHTests.xctest */,
+				2BF2D8EF1B7DFE1A006817BF /* FeedHenry.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -328,6 +419,7 @@
 		B3D7C48515D28BE30019262E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2BF2D9381B7DFF5A006817BF /* libPods.a */,
 				6FC784D61A9B9D95002485B5 /* UIKit.framework */,
 				B3AE9D9115D52F19004EF454 /* SystemConfiguration.framework */,
 				B3AE9D8E15D52E87004EF454 /* MobileCoreServices.framework */,
@@ -433,6 +525,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2BF2D8EC1B7DFE1A006817BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF2D8F41B7DFE1A006817BF /* FHFramework.h in Headers */,
+				2BF2D9081B7DFEE0006817BF /* FHJSON.h in Headers */,
+				2BF2D9091B7DFEE0006817BF /* FHSyncClient.h in Headers */,
+				2BF2D90A1B7DFEE0006817BF /* FHSyncConfig.h in Headers */,
+				2BF2D90B1B7DFEE0006817BF /* FHSyncNotificationMessage.h in Headers */,
+				2BF2D90C1B7DFEE0006817BF /* FHConfig.h in Headers */,
+				2BF2D90D1B7DFEE0006817BF /* FHDefines.h in Headers */,
+				2BF2D90E1B7DFEE0006817BF /* FH.h in Headers */,
+				2BF2D90F1B7DFEE0006817BF /* FHAct.h in Headers */,
+				2BF2D9101B7DFEE0006817BF /* FHActRequest.h in Headers */,
+				2BF2D9111B7DFEE0006817BF /* FHAuthRequest.h in Headers */,
+				2BF2D9121B7DFEE0006817BF /* FHCloudProps.h in Headers */,
+				2BF2D9131B7DFEE0006817BF /* FHCloudRequest.h in Headers */,
+				2BF2D9141B7DFEE0006817BF /* FHResponse.h in Headers */,
+				2BF2D9151B7DFEE0006817BF /* FHResponseDelegate.h in Headers */,
+				2BF2D9161B7DFEE0006817BF /* FHDataManager.h in Headers */,
+				2BF2D9171B7DFF10006817BF /* NSString+MD5.h in Headers */,
+				2BF2D9181B7DFF10006817BF /* NSString+Validation.h in Headers */,
+				2BF2D9191B7DFF10006817BF /* FHOAuthViewController.h in Headers */,
+				2BF2D91A1B7DFF10006817BF /* FHSyncDataRecord.h in Headers */,
+				2BF2D91B1B7DFF10006817BF /* FHSyncDataset.h in Headers */,
+				2BF2D91C1B7DFF10006817BF /* FHSyncPendingDataRecord.h in Headers */,
+				2BF2D91D1B7DFF10006817BF /* FHSyncUtils.h in Headers */,
+				2BF2D91E1B7DFF10006817BF /* FHHttpClient.h in Headers */,
+				2BF2D91F1B7DFF10006817BF /* FHInitRequest.h in Headers */,
+				2BF2D9201B7DFF1A006817BF /* FHPushConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3D7C48115D28BE30019262E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -468,6 +593,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2BF2D8EE1B7DFE1A006817BF /* FHFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF2D9061B7DFE1A006817BF /* Build configuration list for PBXNativeTarget "FHFramework" */;
+			buildPhases = (
+				2BF2D8EA1B7DFE1A006817BF /* Sources */,
+				2BF2D8EB1B7DFE1A006817BF /* Frameworks */,
+				2BF2D8EC1B7DFE1A006817BF /* Headers */,
+				2BF2D8ED1B7DFE1A006817BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FHFramework;
+			productName = FHFramework;
+			productReference = 2BF2D8EF1B7DFE1A006817BF /* FeedHenry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B3D7C48215D28BE30019262E /* FH */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3D7C4A715D28BE30019262E /* Build configuration list for PBXNativeTarget "FH" */;
@@ -518,6 +661,11 @@
 				LastTestingUpgradeCheck = 0620;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = FeedHenry;
+				TargetAttributes = {
+					2BF2D8EE1B7DFE1A006817BF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
 			};
 			buildConfigurationList = B3D7C47D15D28BE30019262E /* Build configuration list for PBXProject "fh-ios-sdk" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -533,11 +681,19 @@
 			targets = (
 				B3D7C48215D28BE30019262E /* FH */,
 				B3D7C49215D28BE30019262E /* FHTests */,
+				2BF2D8EE1B7DFE1A006817BF /* FHFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2BF2D8ED1B7DFE1A006817BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3D7C49015D28BE30019262E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -640,6 +796,36 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2BF2D8EA1B7DFE1A006817BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF2D9211B7DFF36006817BF /* FHJSON.m in Sources */,
+				2BF2D9221B7DFF36006817BF /* NSString+MD5.m in Sources */,
+				2BF2D9231B7DFF36006817BF /* NSString+Validation.m in Sources */,
+				2BF2D9241B7DFF36006817BF /* FHOAuthViewController.m in Sources */,
+				2BF2D9251B7DFF36006817BF /* FHSyncClient.m in Sources */,
+				2BF2D9261B7DFF36006817BF /* FHSyncConfig.m in Sources */,
+				2BF2D9271B7DFF36006817BF /* FHSyncDataRecord.m in Sources */,
+				2BF2D9281B7DFF36006817BF /* FHSyncDataset.m in Sources */,
+				2BF2D9291B7DFF36006817BF /* FHSyncNotificationMessage.m in Sources */,
+				2BF2D92A1B7DFF36006817BF /* FHSyncPendingDataRecord.m in Sources */,
+				2BF2D92B1B7DFF36006817BF /* FHSyncUtils.m in Sources */,
+				2BF2D92C1B7DFF36006817BF /* FHConfig.m in Sources */,
+				2BF2D92D1B7DFF36006817BF /* FHPushConfig.m in Sources */,
+				2BF2D92E1B7DFF36006817BF /* FH.m in Sources */,
+				2BF2D92F1B7DFF36006817BF /* FHAct.m in Sources */,
+				2BF2D9301B7DFF36006817BF /* FHActRequest.m in Sources */,
+				2BF2D9311B7DFF36006817BF /* FHAuthRequest.m in Sources */,
+				2BF2D9321B7DFF36006817BF /* FHCloudProps.m in Sources */,
+				2BF2D9331B7DFF36006817BF /* FHCloudRequest.m in Sources */,
+				2BF2D9341B7DFF36006817BF /* FHHttpClient.m in Sources */,
+				2BF2D9351B7DFF36006817BF /* FHInitRequest.m in Sources */,
+				2BF2D9361B7DFF36006817BF /* FHResponse.m in Sources */,
+				2BF2D9371B7DFF36006817BF /* FHDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3D7C47F15D28BE30019262E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -708,8 +894,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2BF2D9021B7DFE1A006817BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fh-ios-sdk/fh-ios-sdk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = FHFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FeedHenry;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BF2D9031B7DFE1A006817BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DECFFD167AF12D1C659AD99 /* Pods.release.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fh-ios-sdk/fh-ios-sdk-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = FHFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FeedHenry;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B3D7C4A515D28BE30019262E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6E7A1924B17EF8B3DD8023 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -722,12 +988,14 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FH_SDK_VERSION = 2.2.12;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"FH_SDK_VERSION=@\\\"${FH_SDK_VERSION}\\\"",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -758,7 +1026,12 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FH_SDK_VERSION = 2.2.12;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FH_SDK_VERSION=@\\\"${FH_SDK_VERSION}\\\"",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -859,6 +1132,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2BF2D9061B7DFE1A006817BF /* Build configuration list for PBXNativeTarget "FHFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF2D9021B7DFE1A006817BF /* Debug */,
+				2BF2D9031B7DFE1A006817BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B3D7C47D15D28BE30019262E /* Build configuration list for PBXProject "fh-ios-sdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
